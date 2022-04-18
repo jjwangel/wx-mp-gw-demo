@@ -41,10 +41,10 @@ knife4j:
 wx:
   mp:
     apps:
-      - appId: wx4705810e91036e74
-        secret: 41aeea61e27d2dd50f4f5f27bb5c68c5
+      - appId:
+        secret:
         token: ebiz
-        aesKey: 9XkCIXUuLkzkspTrDZfG6iUjV46BRrKk54LFoWkEdAX
+        aesKey:
 #    storage:
 #      useRedis: true
 #      keyPrefix: wxmp
