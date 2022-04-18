@@ -40,19 +40,14 @@ knife4j:
 #公众号配置(可支持多公众号配置，即list表示)
 wx:
   mp:
-    apps:
-      - appId:
+    useRedis: false
+    redisConfig:
+      host: 127.0.0.1
+      port: 6379
+    configs:
+      - appId: 
         secret:
         token: ebiz
         aesKey:
-#    storage:
-#      useRedis: true
-#      keyPrefix: wxmp
-    http:
-      clientType: HttpClient
-#      proxyHost:
-#      proxyPort:
-#      proxyUsername:
-#      proxyPassword:
 
 
