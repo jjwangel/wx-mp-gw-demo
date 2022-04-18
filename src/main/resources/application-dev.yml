@@ -50,9 +50,9 @@ wx:
 #      keyPrefix: wxmp
     http:
       clientType: HttpClient
-      proxyHost:
-      proxyPort:
-      proxyUsername:
-      proxyPassword:
+#      proxyHost:
+#      proxyPort:
+#      proxyUsername:
+#      proxyPassword:
 
 
